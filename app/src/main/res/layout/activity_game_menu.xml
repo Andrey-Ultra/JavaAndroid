@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FA7FC7FF">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BirdGame"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textSize="40dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#598CB3"
+        />
+
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="40dp"
+        android:backgroundTint="#598CB3"
+        android:layout_marginBottom="5dp" />
+
+
+</LinearLayout>
